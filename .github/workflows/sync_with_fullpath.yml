@@ -26,6 +26,8 @@ jobs:
         upstream_branch: master
         target_branch: master
         git_pull_args: --allow-unrelated-histories    # optional arg use, defaults to simple 'pull'
+        git_user: unforswearing
+        git_email: alvin@unforswearing.com
         # github_token: ${{ secrets.GITHUB_TOKEN }}   # optional, for accessing repos that require authentication
 
     # Step 3: Display a message if 'sync' step had new commits (simple test)
